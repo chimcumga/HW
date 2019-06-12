@@ -1,0 +1,100 @@
+<form>
+ <table>
+   <caption align="top"><h1>ĐĂNG KÍ</h1></caption>
+  <tr> 
+    <td><label for="name"><i><span style="color: red">*</span>Trường bắt buộc: </i></label></td><td>
+       <td><input type="radio" id="name" name="name" value="cá nhân" checked="checked" />Cá Nhân
+	       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <input type="radio" id="name" name="name" value="công ty/tổ chức"/>Công ty/Tổ chức </td></br>
+  </tr>  
+  <tr>
+    <td></td>
+    <td><label for="name0"> Họ và Tên<span style="color: red">*</span>:</label></td>
+    <td><input type="text" id="name0" name="name" style="width:260px"/> </td></br>
+  </tr>
+  <tr>
+    <td></td>
+    <td><label for="name1"> Số điện thoại<span style="color: red">*</span>: </label></td>
+    <td><input type="text" id="name1" name="name"style="width:260px"/> </td></br>
+  </tr>
+  <tr>
+    <td></td>
+    <td><label for="name2"> Ngày sinh<span style="color: red">*</span>:</label></td>
+    <td><input type="text" id="name2" name="name"style="width:260px"/></td></br>
+  </tr>
+  <tr>
+  <tr>
+    <td></td>
+    <td><label for="name3">Địa chỉ </label></td>
+	<td><input type="text" id="name3" name="name"style="width:260px"/></td>
+     <label for="Tỉnh"></label>
+     <td><input type="radio" id="Tỉnh" name="name4" value="name4" checked="checked"/>TP.HCM <label for="Quận" class="label"></label></td><br>
+     <td>
+        <select name="Quận" id="Quận" >
+		  <option value="Q0"></option>
+          <option value="Q1">Q1</option>
+          <option value="Q2">Q2</option>
+          <option value="Q3">Q3</option>
+          <option value="Q4">Q4</option>
+          <option value="Q5">Q5</option>
+        </select>
+		</td> 
+  </tr>
+  <tr>
+  <td></td> <td></td>  <td></td>
+	<td> <input type="radio" id="Tỉnh"  name="name4" value="name4"/>Tỉnh khác <label for="Tỉnh khác" class="label"></label></td></br>
+	 <td>
+        <select name="Tỉnh Khác" id="Tỉnh khác" >
+		  <option value="T0"></option>
+          <option value="T1">Hà Nội</option>
+          <option value="T2">Đà Nẵng</option>
+          <option value="T3">Hải Phòng</option>
+          <option value="T4">Cần Thơ</option>
+          <option value="T5">Quảng Bình</option>
+        </select>
+     </td>  
+  </tr>
+  </tr>
+  <tr>
+     <td></td>
+     <td><label for="giới tính">Giới tính: </label> </td> 
+     <td><input type="radio" id="giới tính" name="gender" value="nam" checked="checked"/>Nam
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 <input type="radio" id="giới tính" name="gender" value="nữ"/>Nữ</td>	</br>
+  </tr>
+  <tr>
+    <td></td>
+    <td><label for="email">Email<span style="color: red">*</span>: </label></td>  
+    <td><input type="email" id="email" name="email"style="width:260px"/></td> <br/>
+  </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><label for="password">Mật khẩu<span style="color: red">*</span>: </label> </td> 
+    <td><input type="password" id="password" name="Mật khẩu"style="width:260px"/></td> <br/>
+  </tr>
+  <tr>
+    <td></td>
+    <td><label for="re-password">Nhập lại mật khẩu<span style="color: red">*</span>: </label> </td> 
+    <td><input type="password" id="re-password" name="Mật khẩu"style="width:260px"/></td> <br/>
+  </tr>
+  <tr>
+       <td></td>
+      <td colspan="2">
+        <div align="right"><input type="submit" id="Đăng Kí" value="Đăng Kí"/>
+        </div>
+      </td>
+  </tr>
+
+</table>
+</form>
+
+
+
+
+
+
+
+
+
+
