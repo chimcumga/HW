@@ -1,0 +1,104 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+body {
+	background:#e5e5e5;
+  
+}
+header {
+	background: #415e9b;
+	height: 82px;
+	border-bottom: 1px solid #133783;
+}
+#block{
+	width: 990px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+#logo {
+	width: 50%;
+	float: left;
+}
+#logo img {
+	padding-top: 15px;	
+}
+#create{
+	padding: 5px ;
+	background: #65a953;
+    border: 1px solid #3b6e22;
+	font-size: 13px;
+	margin-top: 9px;
+	margin-bottom: 15px;	
+}
+.account input[type="text"]{
+	height: 40px;
+	margin-bottom: 15px;	
+	width:100%;
+}
+.account input[type="password"]{
+	height: 40px;
+	margin-bottom: 15px;	
+	width:100%;
+} 
+
+.login{
+	padding-left:10px;
+	font-size:18px;
+	width:100%;
+	height:40px;
+	background-color:#3B5998;
+	color:white;
+	border:1px solid #BDBDBD;
+}  	
+
+form{
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+h2{
+	padding-bottom: 30px;
+	text-align: center;
+	margin: 100px 10px 0px;
+}
+p{
+	text-align: center;
+	margin: 15px 0px 20px;
+	color: #999999;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+	color: blue;
+}
+.account {
+	background: #ffffff;
+	border: 1px solid #f9f4f4;
+	margin: 50px 400px 10px 400px;
+	
+}
+.account input [type="button"]{
+	padding: 5px ;
+	background: #65a953;
+    border: 1px solid #3b6e22;
+	font-size: 13px;
+	margin-top: 9px;
+	margin-bottom: 15px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
